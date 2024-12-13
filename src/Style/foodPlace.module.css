@@ -1,0 +1,95 @@
+.foodPlaceContainer {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Full viewport height */
+  background-color: #c4c4c4;
+  padding-top: 0; /* Ensure no padding at the top */
+  margin: 0; /* Remove any margin from the main container */
+}
+
+.mainContent {
+  flex: 1; /* Fills remaining space between navbar and footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 0; /* Remove extra padding */
+  margin-top: 0; /* Ensure no extra margin */
+}
+
+.searchFilterContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #b52d29;
+  width: 100%;
+  margin-top: 0;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Add this line for drop shadow */
+}
+
+
+
+
+.searchInput {
+  padding: 10px;
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.filterSelect {
+  padding: 10px;
+  width: 120px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.foodList {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.foodItem {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.foodImage {
+  width: 80px;
+  height: 80px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.foodDetails {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.foodName {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+.viewButton {
+  padding: 8px 16px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+}
